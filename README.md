@@ -35,13 +35,11 @@ Two data sets are provided:
 
 ## Project Tasks
 1. Implement the promotion assignment process in Python.
-2. Create a PowerPoint document named "2021_GroupXX_Webshop_report" to explain the process:
+   The following tasks are taken into account when developing models :
    - Describe any new derived variables.
    - Explain the model in business terms.
    - Discuss model quality, including Sensitivity, Precision, Accuracy, and AUC.
    - Address model variance and overfitting.
    - Explain how the promotion choice is made to maximize net margin.
-3. Assign a single promotion to each client in `2021_WebShop_test.csv.gz` by filling "1" for the proposed category and "0" for the other one.
-   - Save the results in a CSV file named `2021_GroupXX_Webshop_test.csv.gz` with fields "Client_ID," "C6_A_BD_BD Mangas," and "C3_A_Pop-Rock_Rock independant."
+3. Assign a single promotion to each client by filling "1" for the proposed category and "0" for the other one.
 
-Be cautious not to assign "1" for both promotions to ensure proper revenue calculation.
