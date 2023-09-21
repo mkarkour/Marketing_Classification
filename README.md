@@ -30,11 +30,11 @@ Each client (Client_ID) has a flag = 1 (Target) for one of the above variables i
 
 ## Data Sets
 Two data sets are provided:
-- `2021_WebShop_train.csv.gz`: Compressed CSV file containing 15,000 records.
-- `2021_WebShop_test.csv.gz`: Compressed CSV file containing 20,000 records with the same variables, excluding category target variables except "C3_A_Pop-Rock_Rock independant" and "C6_A_BD_BD Mangas," which contain missing values to be filled.
+- `WebShop_train.csv`: Compressed CSV file containing 15,000 records.
+- `WebShop_test.csv`: Compressed CSV file containing 20,000 records with the same variables, excluding category target variables except "C3_A_Pop-Rock_Rock independant" and "C6_A_BD_BD Mangas," which contain missing values to be filled.
 
 ## Project Tasks
-1. Implement the promotion assignment process in Python.
+1. Implement the promotion assignment process in Python. 
    The following tasks are taken into account when developing models :
    - Describe any new derived variables.
    - Explain the model in business terms.
